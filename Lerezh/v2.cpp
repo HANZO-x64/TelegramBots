@@ -21,7 +21,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     
-    bool ChangingSettings = fa
+    bool ChangingSettings = fa;
     int sizeX = 800;
     int sizeY = 600;
     
