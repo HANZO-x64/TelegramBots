@@ -33,7 +33,7 @@ int main() {
 
     return 0;
 
-    TgBot::Bot bot("6250389702:AAHEfx6xXCEaRfbN1qFOB3HpIXWF56NvIf4");
+    TgBot::Bot bot("KEY");
     bot.getEvents().onCommand("start", [&bot](TgBot::Message::Ptr message) {
         bot.getApi().sendMessage(message->chat->id, "Hi!");
         });
