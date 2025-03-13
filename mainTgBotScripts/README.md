@@ -9,7 +9,9 @@
 
 
 
+
 — — — Установка пакетов — — —
+
 Для установки раличных библиотек я использую vcpkg (https://vcpkg.io/en/index.html)
 Для работы с ТГ ботами на С++ установил пакеты:
 1) vcpkg intstall tgbot-cpp
@@ -19,7 +21,10 @@
 Вот официальная документация: https://github.com/reo7sp/tgbot-cpp
 
 
+
+
 — — — Ошибка — — —
+
 При создании обычного шаблона (из документации) у меня возникла следующая ошибка:
 error: building boost-headers:x64-windows failed with: BUILD_FAILED 
 
@@ -32,6 +37,8 @@ Error (active)	E0020	identifier "__builtin_FUNCSIG" is undefined TgBotStructure 
 #define BOOST_DISABLE_CURRENT_LOCATION  
 
 Ошибка устранена!
+
+
 
 
 — — — Работа с БД — — —
