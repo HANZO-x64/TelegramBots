@@ -1,4 +1,4 @@
---- Моя среда --- 
+— — — Моя среда — — — 
 У меня код работал в:
 1) Visual Studion 2022 (143v)
 2) Configuration Type: Application (.exe)
@@ -7,7 +7,7 @@
 5) C Language Standard: Default (Legacy MSVC)
 
 
---- Установка пакетов ---
+— — — Установка пакетов — — —
 Для установки раличных библиотек я использую vcpkg (https://vcpkg.io/en/index.html)
 Для работы с ТГ ботами на С++ установил пакеты:
 1) vcpkg intstall tgbot-cpp
@@ -17,7 +17,7 @@
 Вот официальная документация: https://github.com/reo7sp/tgbot-cpp
 
 
---- Ошибка --- 
+— — — Ошибка — — —
 При создании обычного шаблона (из документации) у меня возникла следующая ошибка:
 error: building boost-headers:x64-windows failed with: BUILD_FAILED 
 
@@ -32,7 +32,7 @@ Error (active)	E0020	identifier "__builtin_FUNCSIG" is undefined TgBotStructure 
 Ошибка устранена!
 
 
---- Работа с БД --- 
+— — — Работа с БД — — —
 Для работы с БД я использую SQLite, т.к он отлично подходить для небольших проектов.
 Если проект большой можно использовать MySQL.
 
