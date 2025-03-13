@@ -1,10 +1,12 @@
 — — — Моя среда — — — 
+
 У меня код работал в:
 1) Visual Studion 2022 (143v)
 2) Configuration Type: Application (.exe)
 3) SDK 10.0 (latest installed version)
 4) C++ Language Standard: C++ 17
 5) C Language Standard: Default (Legacy MSVC)
+
 
 
 — — — Установка пакетов — — —
